@@ -1,0 +1,37 @@
+@font-face {
+    font-family: nasa;
+    src: url(nasalization.otf);
+}
+
+.Review-container {
+    min-height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+    scroll-snap-align: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 50px;
+    
+}
+
+.Review-container > .name {
+    background-color: blueviolet;
+}
+
+.review-img {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 150px;
+    box-shadow: 0 1px 40px rgb(229, 42, 229);
+    border-radius: 10%;
+} 

@@ -1,0 +1,130 @@
+@font-face {
+    font-family: nasa;
+    src: url(nasalization.otf);
+}
+
+:root {
+    --bg: transparent;
+}
+
+.text {
+    font-family: nasa;
+}
+
+.Hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh;
+    scroll-snap-align: center;
+  }
+  
+.Hero {
+    color: rgb(255, 255, 255);
+    font-family: nasa;
+    text-align: left;
+    display: flex;
+    flex-direction: column; /* Ensure text wraps properly */
+    align-items: flex-start; /* Align items to the start */
+    width:  calc(100% - 0px);; /* Ensure full width for responsiveness */
+    margin-left: 390px;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 400px;
+    font-size: 3rem;
+    position: relative;
+    bottom: 130px;
+    box-sizing: border-box; /* Include padding and border in width calculations */
+}
+
+.learn-more {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.dev {
+    font-weight: bold;
+    background: linear-gradient(120deg, rgb(33, 33, 141) 30%, rgb(105, 30, 30));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    
+}
+
+.pemula {
+    font-size: 1rem;
+}
+
+.arrow {
+    font-size: 1rem;
+    position: relative;
+    top: 3px;
+}
+
+.proses {
+    font-size: 30px;
+}
+
+.ui {
+    color: rgb(105, 30, 30);
+}
+
+.btn {
+  align-items: center;
+}
+
+.hero-card {
+    margin-left: 1300px;
+    margin-top: -500px;
+    animation: animate 3s ease-in-out infinite alternate;
+    flex-wrap: wrap;
+}
+
+
+@keyframes animate {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.card-icon {
+    font-size: 1rem;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    
+}
+
+@media only screen and (max-height: 935px) {
+  .card-01, .card-02, .card-03 {
+    position: relative;
+    bottom: 90px;
+  }
+    
+}
+
+@media only screen and (max-width: 1648px) {
+    .hero-card {
+        margin-left: calc(100vw - 400px);
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .Hero {
+        font-size: 2.5rem; /* Adjust font size for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .Hero {
+        font-size: 1.8rem; /* Further adjustment for very small screens */
+    }
+}
+
+

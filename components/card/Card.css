@@ -1,0 +1,49 @@
+:root {
+    --cntr: center;
+}
+
+.Card-container {
+    min-height: 100vh;
+    display: flex; 
+    flex-direction: column; 
+    scroll-snap-align: var(--cntr);
+    align-items: var(--cntr);
+    justify-content: var(--cntr);
+}
+  
+.spinner {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+  
+.spinner::before,
+.spinner::after {
+    content: "";
+    position: absolute;
+    border-radius: inherit;
+}
+
+.spinner::before {
+    width: 150%;
+    height: 150%;
+    background-image: linear-gradient(0deg, #5b203a 0%, #333399 80%);
+    animation: spin 8s infinite linear;
+}
+  
+.spinner::after {
+    width: 125%;
+    height: 125%;
+    background-color: #151515;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+}
+  

@@ -1,0 +1,75 @@
+@font-face {
+    font-family: nasa;
+    src: url(nasalization.otf);
+}
+
+:root {
+    --font-family: nasa;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    color: white;
+    background-color: black;
+    background: transparent;
+    font-family: var(--font-family);
+    position: relative;
+    top: 110px;
+
+}
+
+.nav-logo {
+    font-family: var(--font-family);
+    font-size: 42px;
+    font-weight: 500;
+    margin: 0;
+    padding-right: 50px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 80px;
+}
+
+.nav-menu li {
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-menu li:hover {
+    color: #ccc;
+
+}
+
+.list {
+    position: relative;
+    cursor: pointer;
+    color: #ffffff;
+    transition: color 0.3s ease-in-out;
+    padding: 12px 12px 12px 12px;
+}
+
+.nav-icon {
+    font-size: 1.4rem;
+    display: none;
+}
+
+@media only screen and (max-width: 1275px) {
+    .nav-icon {
+        display: block;
+    }
+
+    .list {
+        display: none;
+    }
+}
