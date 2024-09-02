@@ -35,8 +35,13 @@
     margin-top: 400px;
     font-size: 3rem;
     position: relative;
-    bottom: 130px;
+    bottom: 190px;
     box-sizing: border-box; /* Include padding and border in width calculations */
+}
+
+.card-socialmedia {
+    position: relative;
+    top: -110px;
 }
 
 .learn-more {
@@ -54,18 +59,26 @@
     
 }
 
-.pemula {
+.Hero > .front {
+    position: relative;
+    top: 150px;
+
+}
+.Hero > .pemula {
     font-size: 1rem;
+    position: relative;
+    top: 50px;
 }
 
-.arrow {
+.Hero > .arrow {
     font-size: 1rem;
     position: relative;
     top: 3px;
 }
 
-.proses {
-    font-size: 30px;
+.Hero > .pengembang{
+    position: relative;
+    bottom: 50px;
 }
 
 .ui {
@@ -74,7 +87,9 @@
 
 .btn {
   align-items: center;
+  margin-top: -50px;
 }
+
 
 .hero-card {
     margin-left: 1300px;
@@ -98,6 +113,11 @@
     padding-left: 10px;
     padding-bottom: 3px;
     
+}
+
+.box-3-card {
+    position: relative;
+    top: -90px;
 }
 
 @media only screen and (max-height: 935px) {

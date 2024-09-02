@@ -15,13 +15,14 @@ const Hero = () => {
     return (
       <div className='Hero-container'>
         <div className='Hero'>
-          <p>Front-end&nbsp;<span className='dev'>Developer</span><br/>
-          <span className='pemula'><GoArrowRight className='arrow'/> RyxaGnrl</span><br/>
-          <span className='proses'>pengembang website pada<br/><span className='ui'>user interface</span></span></p>
+          <p className='front'>Front-end&nbsp;<span className='dev'>Developer</span></p><br/>
+          <p className='pemula'><span><GoArrowRight className='arrow'/> RyxaGnrl</span></p><br/>
+          <p className='pengembang'><span>Web dev of<br/><span className='ui'>user interface</span></span></p>
           <Stack className='btn' spacing={2}>
-            <Button variant='contained' color='secondary'>Lihat lainya</Button> 
+            <Button variant='contained' color='secondary'sx={{marginBottom: '150px'}}>See More</Button> 
           </Stack>
         </div>
+        <div className='card-socialmedia'>
         <Box>
             <Card sx={{ maxWidth: 345, 
                         backgroundColor: 'transparent', 
@@ -35,12 +36,12 @@ const Hero = () => {
               title="sosmed"
             />
             <CardContent className='hero-card-content'>
-              <Typography gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold', fontFamily: 'nasa'}}>
+              <Typography className='RyxaGnrl'gutterBottom variant="h5" component="div" sx={{fontWeight: 'bold', fontFamily: 'nasa'}}>
                 RyxaGnrl
               </Typography>
-              <Typography variant="body2" color="text secondary" sx={{color: 'rgba(255, 255, 255, 0.7)', fontWeight: 'bold', fontFamily: 'nasa'}}>
-                Ryxa general adalah pemuda yang hobby dengan dunia digital. dia sangat antusias dengan 
-                perkembangan teknologi dan dunia pemrograman
+              <Typography className='hero-card-content-ryxa'variant="body2" color="text secondary" sx={{color: 'rgba(255, 255, 255, 0.7)', fontWeight: 'bold', fontFamily: 'nasa'}}>
+              Ryza general is a boy who has a hobby in the digital world. 
+              He is very enthusiastic about the development of technology and the world of programming.
               </Typography>
             </CardContent>
             <CardActions>
@@ -50,6 +51,8 @@ const Hero = () => {
             </CardActions>
             </Card>
         </Box>
+        </div>
+        <div className='box-3-card'>
         <Box>
           <Card variant='plain' className='card-01'
           sx={{width: '400px', 
@@ -119,6 +122,7 @@ const Hero = () => {
             </CardContent>
           </Card>
         </Box>
+        </div>
       </div>
       
     )

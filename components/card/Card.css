@@ -77,6 +77,8 @@
     align-items: flex-start;
     width: 40vw;
     margin-left: -20px;
+    position: relative;
+    bottom: 20px;
   }
 
   .column2 {
@@ -102,3 +104,10 @@
     left: 29px;
   }
 
+.column1 > .css-bar {
+  margin-top: -40px;
+}
+
+.column1 > .js-bar {
+  margin-top: -40px;
+}
