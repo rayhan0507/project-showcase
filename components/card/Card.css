@@ -62,6 +62,7 @@
     border-radius: 30px;
     gap: 100px; 
     padding-left: 140px;
+    
   }
   
   /* Gaya untuk Kolom */
@@ -70,7 +71,18 @@
     flex-direction: column; /* Kolom */
     gap: 120px; /* Jarak antar spinner di setiap kolom */
     justify-content: space-between;
+    
+  }
    
+  .spin1 {
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+  }
+
+
+  .skill > .skill-container > .column1 {
+    margin-top: 50px;
   }
   
   .column1 {
@@ -84,7 +96,9 @@
   .column2 {
     align-items: flex-start;
     width: 40vw;
-
+    position: relative;
+    bottom: -6px;
+    gap: 80px;
   }
 
   .icon {
@@ -104,10 +118,47 @@
     left: 29px;
   }
 
+.column1 > .html-bar {
+  background-color: rgba(88, 87, 87, 0.1);
+  width: 700px;
+  border-radius: 20px;
+  border: solid rgba(255, 255, 255, 0.1)
+}
+  
 .column1 > .css-bar {
   margin-top: -40px;
+  width: 700px;
+  background-color: rgba(88, 87, 87, 0.1);
+  border: solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
 }
 
 .column1 > .js-bar {
   margin-top: -40px;
+  width: 700px;
+  background-color: rgba(88, 87, 87, 0.1);
+  border-radius: 20px;
+  border: solid rgba(255, 255, 255, 0.1);
+}
+
+.column2 > .py-bar {
+  width: 700px;
+  background-color: rgba(88, 87, 87, 0.1);
+  border-radius: 20px;
+  border: solid rgba(255, 255, 255, 0.1);
+
+}
+
+.column2 > .react-bar {
+  width: 700px;
+  background-color: rgba(88, 87, 87, 0.1);
+  border-radius: 20px;
+  border: solid rgba(255, 255, 255, 0.1);
+}
+
+.column2 > .tailwind-bar {
+  width: 700px;
+  background-color: rgba(88, 87, 87, 0.1);
+  border-radius: 20px;
+  border: solid rgba(255, 255, 255, 0.1);
 }
