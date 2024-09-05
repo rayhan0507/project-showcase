@@ -76,7 +76,7 @@
    
   .spin1 {
     position: relative;
-    bottom: 30px;
+    bottom: 35px;
     left: 30px;
   }
 
@@ -88,7 +88,7 @@
   .column1 {
     align-items: flex-start;
     width: 40vw;
-    margin-left: -20px;
+    margin-left: -60px;
     position: relative;
     bottom: 20px;
   }
