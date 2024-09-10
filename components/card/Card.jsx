@@ -37,7 +37,6 @@ const Card = () => {
       <div className='skill'>
         <div className='skill-container'>
           <div className='column1'>
-
             <div className='html-bar'>
                 <Typography variant="h6" gutterBottom sx={{position: 'relative', left: '170px', color: 'white', top: '50px', fontFamily: 'nasa', width: '100px'}}>
                   80%

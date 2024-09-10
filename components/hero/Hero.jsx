@@ -23,6 +23,7 @@ const Hero = () => {
           </Stack>
         </div>
         <div className='card-socialmedia'>
+
         <Box>
             <Card sx={{ maxWidth: 345, 
                         backgroundColor: 'transparent', 
@@ -52,6 +53,7 @@ const Hero = () => {
             </Card>
         </Box>
         </div>
+        
         <div className='box-3-card'>
         <Box>
           <Card variant='plain' className='card-01'
