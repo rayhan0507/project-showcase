@@ -41,7 +41,7 @@ const Hero = () => {
                 RyxaGnrl
               </Typography>
               <Typography className='hero-card-content-ryxa'variant="body2" color="text secondary" sx={{color: 'rgba(255, 255, 255, 0.7)', fontWeight: 'bold', fontFamily: 'nasa'}}>
-              Ryza general is a boy who has a hobby in the digital world. 
+              Ryxa general is a boy who has a hobby in the digital world. 
               He is very enthusiastic about the development of technology and the world of programming.
               </Typography>
             </CardContent>

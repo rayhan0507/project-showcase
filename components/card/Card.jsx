@@ -61,7 +61,7 @@ const Card = () => {
                 <Typography variant='h6' gutterBottom sx={{position: 'relative', left: '170px', color: 'white', top: '50px', fontFamily: 'nasa', width: '100px'}}>45%</Typography>
                 <div className='spinner spin1'><IoLogoJavascript className='icon js-icon'/></div>
                 <Box sx={{width: '100%'}}>
-                  <LinearProgress variant='determinate' value={progress_js} classname='js-bar' color='secondary'
+                  <LinearProgress variant='determinate' value={progress_js} className='js-bar' color='secondary'
                   sx={{width: '500px', minHeight: '10px', position: 'relative', left: '170px', bottom: '10px', borderRadius: '20px'}}/>
                 </Box>
             </div>

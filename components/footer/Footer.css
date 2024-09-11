@@ -1,3 +1,8 @@
+@font-face {
+    font-family: nasa;
+    src: url(nasalization.otf);
+}
+
 .Footer-container {
     min-height: 100vh; 
     display: flex; 
@@ -34,11 +39,43 @@
     
 }
 
-.pr, .davinci {
+.icon-card {
     width: 30px;
     height: 30px;
 }
 
 .buat {
     width: 400px;
+}
+
+.footer-social-media > .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+}
+
+.footer-social-media > .social-media > .social-media-menu {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+    font-size: 2rem;
+    min-width: 210px;
+}
+
+.social-media-menu > .instagram {
+    color: rgb(196, 38, 211);
+}
+
+.social-media-menu > .facebook {
+    color: rgb(23, 60, 221);
+}
+
+.social-media-menu > .github {
+    color: black;
 }
